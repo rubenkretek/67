@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="259px" height="81px" viewBox="0 0 259 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Helvetica" font-weight="normal">
+        <g transform="translate(0.000000, -14.000000)">
+            <text id="CarCube" font-size="65">
+                <tspan x="0" y="63" fill="#333333">Car</tspan>
+                <tspan x="104.736328" y="63" fill="#C3002F">Cube</tspan>
+            </text>
+            <text id="part-of-67degrees" font-size="19" fill="#333333">
+                <tspan x="103" y="90">part of 67degrees</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
