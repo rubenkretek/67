@@ -14,7 +14,7 @@
     />
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/73ee2bf7e1.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="ruben.css">
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
@@ -22,17 +22,21 @@
   </head>
   <body>
     <div class="site-header">
-      <div class="header-logo">
-        <img src="assets/images/main-logo.svg" style="max-width: 200px;" />
-      </div>
-      <div class="header-phone">
-        <p class="header-phone-text">
-          <span>Call</span> <a href="tel:01273 123456">01273 123456</a>
-        </p>
-      </div>
+        <div class="container">
+        <div class="header-logo">
+            <a href="/">
+                <img src="assets/images/main-logo.svg" style="max-width: 200px;" alt="Car Cube logo" />
+            </a>
+        </div>
+        <div class="header-phone">
+            <p class="header-phone-text">
+            <span>Call</span> <a href="tel:01273 123456">01273 123456</a>
+            </p>
+        </div>
+     </div>
     </div>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light">
       <button
         class="navbar-toggler"
         type="button"
@@ -170,21 +174,24 @@
 </div></section>
           <section class="services-home section-default">
             <div class="container">
-              <div class="card">
-                <img
-                  src="assets/images/used-cars.jpg"
-                  class="card-img-top"
-                  alt="Car dealership"
-                />
-                <div class="card-body">
-                  <h3 class="card-title">Used Cars</h5>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                </div>
+                <div class="card">
+                    <a href="#">
+                    <img
+                    src="assets/images/used-cars.jpg"
+                    class="card-img-top"
+                    alt="Car dealership"
+                    />
+                    <div class="card-body">
+                    <h3 class="card-title">Used Cars</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                    </div>
+                </a>
               </div>
 
               <div class="card">
+                <a href="#">
                 <img
                   src="assets/images/service.jpg"
                   class="card-img-top"
@@ -196,9 +203,11 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   </p>
                 </div>
+            </a>
               </div>
 
               <div class="card">
+                <a href="#">
                 <img
                   src="assets/images/finance.jpg"
                   class="card-img-top"
@@ -210,9 +219,11 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   </p>
                 </div>
+            </a>
               </div>
 
               <div class="card">
+                <a href="#">
                 <img
                   src="assets/images/warranty.jpg"
                   class="card-img-top"
@@ -224,7 +235,9 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   </p>
                 </div>
+                </a>
               </div>
+
             </div>
           </section>
         </div>
@@ -235,26 +248,26 @@
         <div class="container">
             <h2>Used Cars Brighton, East Sussex</h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus a vestibulum leo. Proin aliquet lacus ligula, eget sagittis leo pretium in. Suspendisse eu mauris varius, dignissim dui ut, congue ipsum. Aliquam volutpat laoreet tellus at aliquam. Maecenas aliquam ante eget venenatis finibus.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce condimentum pharetra accumsan. Proin tempus diam vel nisl ultricies, 
+ lacinia. Nunc non turpis ac urna venenatis suscipit sed eu dui. Donec ac ex placerat, rutrum tellus rhoncus, accumsan urna. Etiam scelerisque viverra nulla, quis interdum arcu tincidunt at. Quisque ut tortor blandit, tincidunt purus in, ornare ligula. Aliquam efficitur libero nec augue bibendum rutrum.
             </p>
         </div>
     </section>
 
     <section class="featured-vehicles default">       
-        <div class="container-fluid">
+        <div class="container">
             <h2>Featured Vehicles</h2>
             <div class="vehicles-slider">
                 
-                <div class="card" style="width: 18rem;">
-                        <div class="card-container">
-                            
-                            <img
-                            src="assets/images/featured-vehicle.png"
-                            class="card-img-top"
-                            alt="Man and woman reading a legal document"
-                            />
-                            <i class="far fa-heart"></i>
-                            
+                <div class="card" style="width: 18rem;">                   
+                    <div class="card-container">                                                      
+                        <img
+                        src="assets/images/featured-vehicle.png"
+                        class="card-img-top"
+                        alt="Man and woman reading a legal document"
+                        />
+                        <i class="far fa-heart"></i>
+                        <a href="#">
                             <div class="card-body">
                                 <p class="car-make-model">
                                     2015 Nissan Micra
@@ -265,193 +278,131 @@
                                 <p class="car-price">
                                     £3,980
                                 </p>
-                            </div>
-                        
-                        </div>
-                    
+                            </div> 
+                        </a>                         
+                    </div>
                 </div>
 
-                <div class="card" style="width: 18rem;">
-                    <div class="card-container">
-                        
+                <div class="card" style="width: 18rem;">                   
+                    <div class="card-container">                                                      
                         <img
                         src="assets/images/featured-vehicle.png"
                         class="card-img-top"
                         alt="Man and woman reading a legal document"
                         />
                         <i class="far fa-heart"></i>
-                        
-                        <div class="card-body">
-                            <p class="car-make-model">
-                                2015 Nissan Micra
-                            </p>
-                            <p class="car-info">
-                                1.2 Acenta 5dr
-                            </p>
-                            <p class="car-price">
-                                £3,980
-                            </p>
-                        </div>
-                    
+                        <a href="#">
+                            <div class="card-body">
+                                <p class="car-make-model">
+                                    2015 Nissan Micra
+                                </p>
+                                <p class="car-info">
+                                    1.2 Acenta 5dr
+                                </p>
+                                <p class="car-price">
+                                    £3,980
+                                </p>
+                            </div> 
+                        </a>                         
                     </div>
-                
-            </div>
+                </div>
 
-            <div class="card" style="width: 18rem;">
-                <div class="card-container">
-                    
-                    <img
-                    src="assets/images/featured-vehicle.png"
-                    class="card-img-top"
-                    alt="Man and woman reading a legal document"
-                    />
-                    <i class="far fa-heart"></i>
-                    
-                    <div class="card-body">
-                        <p class="car-make-model">
-                            2015 Nissan Micra
-                        </p>
-                        <p class="car-info">
-                            1.2 Acenta 5dr
-                        </p>
-                        <p class="car-price">
-                            £3,980
-                        </p>
+                <div class="card" style="width: 18rem;">                   
+                    <div class="card-container">                                                      
+                        <img
+                        src="assets/images/featured-vehicle.png"
+                        class="card-img-top"
+                        alt="Man and woman reading a legal document"
+                        />
+                        <i class="far fa-heart"></i>
+                        <a href="#">
+                            <div class="card-body">
+                                <p class="car-make-model">
+                                    2015 Nissan Micra
+                                </p>
+                                <p class="car-info">
+                                    1.2 Acenta 5dr
+                                </p>
+                                <p class="car-price">
+                                    £3,980
+                                </p>
+                            </div> 
+                        </a>                         
                     </div>
-                
                 </div>
-            
-        </div>
 
-        <div class="card" style="width: 18rem;">
-            <div class="card-container">
-                
-                <img
-                src="assets/images/featured-vehicle.png"
-                class="card-img-top"
-                alt="Man and woman reading a legal document"
-                />
-                <i class="far fa-heart"></i>
-                
-                <div class="card-body">
-                    <p class="car-make-model">
-                        2015 Nissan Micra
-                    </p>
-                    <p class="car-info">
-                        1.2 Acenta 5dr
-                    </p>
-                    <p class="car-price">
-                        £3,980
-                    </p>
+                <div class="card" style="width: 18rem;">                   
+                    <div class="card-container">                                                      
+                        <img
+                        src="assets/images/featured-vehicle.png"
+                        class="card-img-top"
+                        alt="Man and woman reading a legal document"
+                        />
+                        <i class="far fa-heart"></i>
+                        <a href="#">
+                            <div class="card-body">
+                                <p class="car-make-model">
+                                    2015 Nissan Micra
+                                </p>
+                                <p class="car-info">
+                                    1.2 Acenta 5dr
+                                </p>
+                                <p class="car-price">
+                                    £3,980
+                                </p>
+                            </div> 
+                        </a>                         
+                    </div>
                 </div>
-            
-            </div>
-        
-    </div>
 
-    <div class="card" style="width: 18rem;">
-        <div class="card-container">
-            
-            <img
-            src="assets/images/featured-vehicle.png"
-            class="card-img-top"
-            alt="Man and woman reading a legal document"
-            />
-            <i class="far fa-heart"></i>
-            
-            <div class="card-body">
-                <p class="car-make-model">
-                    2015 Nissan Micra
-                </p>
-                <p class="car-info">
-                    1.2 Acenta 5dr
-                </p>
-                <p class="car-price">
-                    £3,980
-                </p>
-            </div>
-        
-        </div>
-    
-</div>
+                <div class="card" style="width: 18rem;">                   
+                    <div class="card-container">                                                      
+                        <img
+                        src="assets/images/featured-vehicle.png"
+                        class="card-img-top"
+                        alt="Man and woman reading a legal document"
+                        />
+                        <i class="far fa-heart"></i>
+                        <a href="#">
+                            <div class="card-body">
+                                <p class="car-make-model">
+                                    2015 Nissan Micra
+                                </p>
+                                <p class="car-info">
+                                    1.2 Acenta 5dr
+                                </p>
+                                <p class="car-price">
+                                    £3,980
+                                </p>
+                            </div> 
+                        </a>                         
+                    </div>
+                </div>
 
-<div class="card" style="width: 18rem;">
-    <div class="card-container">
-        
-        <img
-        src="assets/images/featured-vehicle.png"
-        class="card-img-top"
-        alt="Man and woman reading a legal document"
-        />
-        <i class="far fa-heart"></i>
-        
-        <div class="card-body">
-            <p class="car-make-model">
-                2015 Nissan Micra
-            </p>
-            <p class="car-info">
-                1.2 Acenta 5dr
-            </p>
-            <p class="car-price">
-                £3,980
-            </p>
-        </div>
-    
-    </div>
+                <div class="card" style="width: 18rem;">                   
+                    <div class="card-container">                                                      
+                        <img
+                        src="assets/images/featured-vehicle.png"
+                        class="card-img-top"
+                        alt="Man and woman reading a legal document"
+                        />
+                        <i class="far fa-heart"></i>
+                        <a href="#">
+                            <div class="card-body">
+                                <p class="car-make-model">
+                                    2015 Nissan Micra
+                                </p>
+                                <p class="car-info">
+                                    1.2 Acenta 5dr
+                                </p>
+                                <p class="car-price">
+                                    £3,980
+                                </p>
+                            </div> 
+                        </a>                         
+                    </div>
+                </div>
 
-</div>
-
-<div class="card" style="width: 18rem;">
-    <div class="card-container">
-        
-        <img
-        src="assets/images/featured-vehicle.png"
-        class="card-img-top"
-        alt="Man and woman reading a legal document"
-        />
-        <i class="far fa-heart"></i>
-        
-        <div class="card-body">
-            <p class="car-make-model">
-                2015 Nissan Micra
-            </p>
-            <p class="car-info">
-                1.2 Acenta 5dr
-            </p>
-            <p class="car-price">
-                £3,980
-            </p>
-        </div>
-    
-    </div>
-
-</div>
-
-<div class="card" style="width: 18rem;">
-    <div class="card-container">
-        
-        <img
-        src="assets/images/featured-vehicle.png"
-        class="card-img-top"
-        alt="Man and woman reading a legal document"
-        />
-        <i class="far fa-heart"></i>
-        
-        <div class="card-body">
-            <p class="car-make-model">
-                2015 Nissan Micra
-            </p>
-            <p class="car-info">
-                1.2 Acenta 5dr
-            </p>
-            <p class="car-price">
-                £3,980
-            </p>
-        </div>
-    
-    </div>
-
-</div>
             </div>
         </div>
         
@@ -491,7 +442,7 @@
             <p>Address Line 1, Address Line 2, Town, County, Post Code</p>
         </div>
         <div class="footer-copyright">
-            <p>© 2016 All Rights Reserved   Website by 67degrees</p>
+            <p>© 2016 All Rights Reserved <span class="invis-divider">|</span> Website by 67degrees</p>
         </div>
     </footer>
 
