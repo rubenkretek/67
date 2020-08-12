@@ -24,7 +24,7 @@ section.secondary {
 .header-phone {
   position: absolute;
   top: 37px;
-  right: 0;
+  right: 25px;
 }
 
 .site-header .container {
@@ -81,6 +81,17 @@ section.secondary {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1.0%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-dark .navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler {
+  font-size: 1.45rem;
+}
+
 /* Slideshow banner */
 @media only screen and (min-width: 1400px) {
   .carousel-inner {
@@ -91,6 +102,7 @@ section.secondary {
 .car-search {
   background: #c3002f;
   padding: 20px;
+  border-bottom: 4px solid #900000;
 }
 
 .car-search-fields {
@@ -114,7 +126,7 @@ section.secondary {
 
 .search-button:hover,
 .search-button:focus {
-  background: #575757;
+  background: #333;
 }
 
 .car-search-button {
@@ -152,13 +164,23 @@ select {
   background-color: #4c4c4c;
   border: none;
   border-radius: 0;
-  border-bottom: 2px solid #333333;
+  border-bottom: 4px solid #333333;
+  transition: all 0.3s ease;
+}
+.card:hover,
+.card:focus {
+  background: #333;
+}
+
+.card a:hover {
+  text-decoration: none;
 }
 
 .card-body {
   color: #fff;
   text-align: center;
   line-height: 1;
+  transition: all 0.3s ease;
 }
 
 .card-title {
@@ -175,7 +197,21 @@ select {
   text-align: center;
 }
 
+.intro-text-home p {
+  font-size: 18px;
+  line-height: 34px;
+  font-weight: 400;
+}
+
+.intro-text-home {
+  padding: 75px 0;
+}
+
 /* Featured cars */
+.featured-vehicles.default {
+  padding: 75px 0 100px;
+}
+
 .featured-vehicles.default h2 {
   text-align: center;
 }
@@ -203,6 +239,12 @@ select {
   margin: 2%;
   background: #c3002f;
   border-bottom: 4px solid #900000;
+  transition: all 0.3s ease;
+}
+
+.card-body:hover,
+.card-body:focus {
+  background: #900000;
 }
 
 .card-container i {
@@ -211,10 +253,16 @@ select {
   top: 15px;
   right: 15px;
   cursor: pointer;
+  font-size: 25px;
 }
 
 .card-container p {
   margin-bottom: 2px;
+}
+
+.car-make-model,
+.car-info {
+  font-weight: 300;
 }
 
 .vehicles-slider .card-body {
@@ -265,6 +313,15 @@ footer a i {
   justify-content: space-around;
 }
 
+.footer-social-icons i {
+  transition: all 0.3s ease;
+}
+
+.footer-social-icons i:hover,
+.footer-social-icons i:focus {
+  color: #c8c8c8;
+}
+
 .footer-list ul {
   list-style: none;
   display: flex;
@@ -279,7 +336,7 @@ footer a i {
 
 .footer-dealer-list {
   max-width: 600px;
-  margin: 0 auto;
+  margin: 15px auto 0;
   padding: 10px 0;
 }
 
@@ -294,6 +351,10 @@ footer a i {
   .container,
   .container-sm {
     max-width: 700px;
+  }
+
+  .featured-vehicles .container {
+    max-width: 90%;
   }
 }
 
@@ -323,5 +384,9 @@ footer a i {
 
   .header-logo img {
     width: 100px;
+  }
+
+  .header-phone {
+    top: 20px;
   }
 }
