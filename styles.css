@@ -1,0 +1,61 @@
+/* Global */
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+/* Header */
+.site-header {
+  display: ;
+  position: relative;
+}
+
+.header-phone {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.header-logo {
+  padding: 20px;
+}
+
+.header-phone-text {
+  color: #c3002f;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.header-phone-text a {
+  color: #000;
+}
+
+/* Navbar */
+.navbar-nav {
+  width: 90%;
+  justify-content: space-around;
+}
+
+.bg-light {
+  background-color: #4c4c4c !important;
+  border-bottom: 2px solid #333333;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: rgb(255, 255, 255);
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Slideshow banner */
+.carousel-inner {
+  max-height: 500px;
+}
