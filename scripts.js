@@ -5,7 +5,14 @@ $(document).ready(function () {
     slidesToScroll: 4,
     responsive: [
       {
-        breakpoint: 600,
+        breakpoint: 1023,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 640,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,

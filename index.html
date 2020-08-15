@@ -6,17 +6,21 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/73ee2bf7e1.js" crossorigin="anonymous"></script>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet"> 
-    <script src="https://kit.fontawesome.com/73ee2bf7e1.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="ruben.css">
+        
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+    <link rel="stylesheet" href="ruben.css">
 
     <title>Car Cube</title>
   </head>
@@ -25,7 +29,7 @@
         <div class="container">
         <div class="header-logo">
             <a href="/">
-                <img src="assets/images/main-logo.svg" style="max-width: 200px;" alt="Car Cube logo" />
+                <img src="assets/images/main-logo.svg" alt="Car Cube logo" />
             </a>
         </div>
         <div class="header-phone">
@@ -78,7 +82,8 @@
       </div>
     </nav>
 
-    <div id="home-banner" class="carousel slide" data-ride="carousel">
+    <main class="home-content">
+    <section id="home-banner" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img
@@ -120,7 +125,7 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
-    </div>
+    </section>
 
     <section class="car-search">
       <div class="container">
@@ -170,8 +175,9 @@
             </button>
         </div>
           </form>
-</div>
-</div></section>
+        </div>
+      </div>
+    </section>
           <section class="services-home section-default">
             <div class="container">
                 <div class="card">
@@ -249,17 +255,17 @@
             <h2>Used Cars Brighton, East Sussex</h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce condimentum pharetra accumsan. Proin tempus diam vel nisl ultricies, 
- lacinia. Nunc non turpis ac urna venenatis suscipit sed eu dui. Donec ac ex placerat, rutrum tellus rhoncus, accumsan urna. Etiam scelerisque viverra nulla, quis interdum arcu tincidunt at. Quisque ut tortor blandit, tincidunt purus in, ornare ligula. Aliquam efficitur libero nec augue bibendum rutrum.
+ lacinia. Nunc non turpis ac urna venenatis suscipit sed eu dui. Donec ac ex placerat, rutrum tellus rhoncus, accumsan urna. Etiam scelerisque viverra nulla, quis interdum arcu tincidunt at. Quisque ut tortor blandit, tincidunt purus in, ornare ligula. Aliquam efficitur libero nec augue bibendum rutrum. Aenean quis ipsum tincidunt, maximus diam id, dictum purus. Maecenas consequat tempor convallis. Vivamus elementum interdum mauris non mattis. Nulla eget fermentum nibh, sollicitudin rutrum nisl.
             </p>
         </div>
     </section>
 
     <section class="featured-vehicles default">       
-        <div class="container">
+        <div class="container-fluid">
             <h2>Featured Vehicles</h2>
             <div class="vehicles-slider">
                 
-                <div class="card" style="width: 18rem;">                   
+                <div class="card">                   
                     <div class="card-container">                                                      
                         <img
                         src="assets/images/featured-vehicle.png"
@@ -283,7 +289,7 @@
                     </div>
                 </div>
 
-                <div class="card" style="width: 18rem;">                   
+                <div class="card">                   
                     <div class="card-container">                                                      
                         <img
                         src="assets/images/featured-vehicle.png"
@@ -307,7 +313,7 @@
                     </div>
                 </div>
 
-                <div class="card" style="width: 18rem;">                   
+                <div class="card">                   
                     <div class="card-container">                                                      
                         <img
                         src="assets/images/featured-vehicle.png"
@@ -331,7 +337,7 @@
                     </div>
                 </div>
 
-                <div class="card" style="width: 18rem;">                   
+                <div class="card">                   
                     <div class="card-container">                                                      
                         <img
                         src="assets/images/featured-vehicle.png"
@@ -355,7 +361,7 @@
                     </div>
                 </div>
 
-                <div class="card" style="width: 18rem;">                   
+                <div class="card">                   
                     <div class="card-container">                                                      
                         <img
                         src="assets/images/featured-vehicle.png"
@@ -379,7 +385,7 @@
                     </div>
                 </div>
 
-                <div class="card" style="width: 18rem;">                   
+                <div class="card">                   
                     <div class="card-container">                                                      
                         <img
                         src="assets/images/featured-vehicle.png"
@@ -410,13 +416,13 @@
     </section>
 
     <section class="breadcrumbs secondary">
-        <a href="/home">Home</a><span>></span><a href="/used-cars">Used Cars</a>
+        <a href="/home">Home</a><span><i class="fas fa-chevron-right"></i></span><a href="/used-cars">Used Cars</a>
     </section>
-
+    </main>
     <footer>
         <div class="footer-social-icons">
             <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
-            <a href="https://www.google.com/" target="_blank"><i class="fab fa-google-plus"></i></a>
+            <a href="https://www.google.com/" target="_blank"><i class="fab fa-google-plus-square"></i></a>
             <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square"></i></a>
             <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
         </div>
@@ -442,7 +448,7 @@
             <p>Address Line 1, Address Line 2, Town, County, Post Code</p>
         </div>
         <div class="footer-copyright">
-            <p>© 2016 All Rights Reserved <span class="invis-divider">|</span> Website by 67degrees</p>
+            <p>© 2016 All Rights Reserved <span class="invis-divider">|</span> <a href="https://www.67degrees.co.uk/" target="_blank" >Website by 67degrees</a></p>
         </div>
     </footer>
 
