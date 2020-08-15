@@ -515,6 +515,18 @@ footer a i {
 }
 
 /* Responsive */
+@media only screen and (max-width: 1023px) {
+  .services-home .container .card {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+
+  .services-home .container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .container,
   .container-sm {
@@ -524,9 +536,13 @@ footer a i {
   .featured-vehicles .container {
     max-width: 90%;
   }
+
+  .intro-text-home .container {
+    max-width: 700px;
+  }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
   .container,
   .container-sm {
     max-width: 700px;
@@ -546,8 +562,12 @@ footer a i {
   }
 
   .services-home .container .card {
-    width: 49%;
-    margin-bottom: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .services-home .container .card:last-child {
+    margin-bottom: 0;
   }
 
   .header-logo img {
@@ -563,8 +583,20 @@ footer a i {
   }
 
   .header-logo {
-    padding: 20px 0px;
+    padding: 0px;
   }
+  /*--------*/
+  .carousel-control-next,
+  .carousel-control-prev {
+    display: none;
+  }
+
+  .featured-vehicles .slick-prev,
+  .featured-vehicles .slick-next.slick-arrow {
+    width: 25px;
+  }
+
+  /*--------*/
 }
 
 @media only screen and (max-width: 265px) {
