@@ -302,6 +302,10 @@ select {
   padding: 45px 0;
 }
 
+.primary p {
+  color: #636363;
+}
+
 /* Featured cars */
 .featured-vehicles .container-fluid {
   padding-right: 0;
@@ -585,7 +589,7 @@ footer a i {
   .header-logo {
     padding: 0px;
   }
-  /*--------*/
+
   .carousel-control-next,
   .carousel-control-prev {
     display: none;
@@ -596,7 +600,14 @@ footer a i {
     width: 25px;
   }
 
-  /*--------*/
+  .featured-vehicles .slick-prev::before,
+  .featured-vehicles .slick-next::before {
+    font-size: 12px;
+  }
+
+  .slick-list.draggable {
+    width: 80%;
+  }
 }
 
 @media only screen and (max-width: 265px) {
